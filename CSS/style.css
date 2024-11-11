@@ -1,0 +1,145 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*===================================
+                GERAL
+=====================================*/
+html {
+    font-size: calc(12px + 0.390625vw);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+/*===================================
+                HEADER
+=====================================*/
+header{
+    background-color: #3B8686;
+    padding: 20px 10vw;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+header nav h1{
+    margin: 20px 0 20px 0;
+}
+header nav ul{
+    display: flex;
+    
+}
+header nav ul li{
+    margin: 20px 2vw 20px 2vw;
+}
+header nav ul li.atual{
+    background-color: rgba(255, 255, 255, 0.2) ;
+    padding: 6px 21px;
+    border-radius: 20px;
+}
+/*===================================
+                banner
+=====================================*/
+section.banner{
+    padding: 15vw 10vw;
+    background: linear-gradient( rgba(121,189, 154, 1), rgba(121, 189, 154, 0.2)), url(../scr/images/back-banner.png)no-repeat center center;
+    background-size: cover;
+}
+section.banner h2{
+    font-size: 3rem;
+    color: #FFFFFF;
+    background-color: rgba(59, 134, 134, 50%);
+    width: 40%;
+    padding: 1vw;
+}
+/*===================================
+                diferenciais
+=====================================*/
+section.dif{
+    padding: 3vw;
+}
+section.dif ul{
+    display: flex;
+    justify-content: center;
+
+}
+section.dif ul li{
+    text-align: center;
+    margin: 2vw 5vw;
+}
+section.dif ul li span{
+    color: #3B8686;
+    font-size: 5rem;
+    margin: 2vw;
+}
+section.dif ul li h3 {
+    font-size: 2rem;
+ 
+}
+section.dif ul li p{
+    color: #747474;
+    margin: 2vw;
+    font-size: 30px;
+}
+section.dif ul li button{
+
+    font-size: 2rem;
+    color: #FFFFFF;
+    background-color: #3B8686;
+    padding: 20px 65px ;
+}
+
+/*===================================
+                ...
+=====================================*/
+/*===================================
+                ...
+=====================================*/
+/*===================================
+                FOTTER
+=====================================*/
