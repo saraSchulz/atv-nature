@@ -87,7 +87,7 @@ header nav ul li.atual{
 =====================================*/
 section.banner{
     padding: 15vw 10vw;
-    background: linear-gradient( rgba(121,189, 154, 1), rgba(121, 189, 154, 0.2)), url(../scr/images/back-banner.png)no-repeat center center;
+    background: url(../scr/images/back-banner.png)no-repeat center center;
     background-size: cover;
 }
 section.banner h2{
@@ -114,32 +114,116 @@ section.dif ul li{
 }
 section.dif ul li span{
     color: #3B8686;
-    font-size: 5rem;
+    font-size: 4rem;
     margin: 2vw;
 }
 section.dif ul li h3 {
-    font-size: 2rem;
+    font-size: 1.6rem;
  
 }
 section.dif ul li p{
     color: #747474;
     margin: 2vw;
-    font-size: 30px;
 }
 section.dif ul li button{
 
-    font-size: 2rem;
+    font-size: 1rem;
     color: #FFFFFF;
     background-color: #3B8686;
     padding: 20px 65px ;
+    border: #3B8686 solid 1px;
 }
 
 /*===================================
-                ...
+                nums
 =====================================*/
+section.nums{
+    background: linear-gradient( rgba(121,189, 154, 1), rgba(121, 189, 154, 0.2)), url(../scr/images/back-numeros.png) no-repeat;
+    padding: 5vw 5vw;
+    background-size: cover;
+}
+section.nums ul{
+    display: flex;
+    justify-content: space-between;
+}
+section.nums ul li{
+    margin: 0 4vw ;
+}
+section.nums ul li p span{
+    color: white;
+    font-size: 3rem;
+}
+section.nums ul li h3{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
 /*===================================
-                ...
+                youtb 
 =====================================*/
+section.youtb{
+    padding: 10vw 4vw;
+}
+section.youtb div.maior{
+    display: flex;
+}
+section.youtb div.maior div{
+    margin: 0 2vw;
+}
+section.youtb div h3{
+    font-size: 2rem;
+    color: #0B486B;
+    margin: 2vw;
+}
+section.youtb div p{
+    color: #747474;
+    text-align: left;
+    margin: 0 10vw 2vw 2vw;
+}
+section.youtb div button{
+    color: white;
+    margin: 0 0 0 2vw;
+    background-color: #0B486B;
+    border: #0B486B solid 1px;
+    padding: 15px 10px;
+}
 /*===================================
                 FOTTER
 =====================================*/
+footer{
+    background-color: #3B8686;
+    padding: 2vw;
+    display: flex;
+    justify-content: space-between;
+}
+/*ESQUERDA*/
+footer div.left{
+    margin: 0 0 0 5vw;
+}
+footer div.left ul{
+    display: flex;
+}
+footer div.left ul li a{
+    font-size: 2vw;
+    margin: 10px;
+}
+footer div.left p{
+    color: white;
+    margin: 2vw 0 0 0;
+}
+/*CENTRO*/
+footer div.center p{
+    color: white;
+    margin: 10px;
+}
+
+/*DIREITA*/
+footer div.right{
+    text-align: right;
+}
+footer div.right ul{
+    margin: 2vw 5vw 2vw 0;
+}
+footer div.right ul li{
+    margin: 1.5vw 0;
+}
